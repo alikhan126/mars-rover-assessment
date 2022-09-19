@@ -1,3 +1,35 @@
+## Instructions
+
+* Pre-requisite
+```
+Python 3 (3.9, 3.10)
+```
+
+* Install virtual environment
+```bash
+virtualenv venv
+```
+
+* Activate virtual envionment
+```bash
+source venv/bin/activate
+```
+
+* Install dependencies
+```bash
+pip3 install -r requirements.txt
+```
+
+* Run code
+```bash
+python3 app.py input.txt
+```
+
+* Run unit tests
+```bash
+python3 -m pytest
+```
+
 ## Mars Rover
 
 A squad of robotic rovers are to be landed by NASA on a plateau on Mars.
